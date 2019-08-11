@@ -1,0 +1,46 @@
+body {
+    font-family: "Open Sans", "Open Sans Condensed", "Source Sans Pro";
+}
+
+.navbar {
+    background: none;
+    border-color: transparent;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+    border-top: 1px solid transparent;
+    overflow-x: hidden;
+}
+
+.navbar-nav li a {
+    padding: 20px 25px 15px 25px;
+    color: transparent;
+}
+
+.navbar-fixed-top .container {
+    text-align: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+
+.navbar-brand {
+    float: left;
+    text-transform: uppercase;
+}
+
+/*-----JUMBOTRON-----*/
+
+#landing-view {
+    background-attachment: fixed;
+    background-image: url('../images/Third_Eye_Blind_at_SUNY_Geneseo.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
