@@ -2,6 +2,14 @@ body {
     font-family: "Open Sans", "Open Sans Condensed", "Source Sans Pro";
 }
 
+.title {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
 .navbar {
     background: none;
     border-color: transparent;
@@ -42,5 +50,6 @@ body {
     height: 100vh;
     width: 100vw;
     margin-bottom: 0px;
+    margin-top: 0px;
     z-index: 1;
 }
