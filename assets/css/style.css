@@ -52,7 +52,7 @@ body {
     margin-bottom: 0px;
     margin-top: 0px;
     z-index: 1;
-    border-radius: 0;
+    border-radius: none;
 }
 
 /*-----TOUR DATES-----*/
