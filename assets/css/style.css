@@ -41,6 +41,11 @@ body {
 }
 
 /*-----JUMBOTRON-----*/
+.jumbotron {
+    border-radius: 0;
+    margin: 0;
+    width: inherit;
+}
 
 #landing-view {
     background-attachment: fixed;
