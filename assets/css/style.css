@@ -49,7 +49,7 @@ body {
 
 #landing-view {
     background-attachment: fixed;
-    background-image: url('../images/Third_Eye_Blind_at_SUNY_Geneseo.jpg');
+    background-image: url('../images/background/Third_Eye_Blind_at_SUNY_Geneseo.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -77,4 +77,8 @@ body {
 
 .navbar-toggler span {
     color: white;
+}
+
+#tour-dates {
+    background: black;
 }
