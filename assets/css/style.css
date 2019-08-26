@@ -86,6 +86,12 @@
 
 #tour-dates {
     background: black;
+    color: white;
+}
+
+.table {
+    color: white;
+    text-align: left;
 }
 
 .collapse {
@@ -104,4 +110,8 @@ color: black;
     z-index: 1;
     border-radius: none;
     padding: 0;
+}
+
+.nav-link {
+    color: black;
 }
