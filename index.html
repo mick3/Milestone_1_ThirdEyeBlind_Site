@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- FancyBox CSS / CDN -->
 	<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
@@ -14,30 +15,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Open+Sans+Condensed:300+Source+Sans+Pro&display=swap" rel="stylesheet">
-  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+
     <!-- Font Awesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- JS File -->
-    <script src="javascript/script.js"></script>
   
   
   
 </head>
 <body>
     <header class="jumbotron" id="landing-view">
-        <nav class="navbar navbar-light bg-light navbar-fixed-top">
+        <nav class="navbar fixed-top navbar-light bg-transparent">
             <a class="navbar-brand align-left" href="#">
               <img src="assets/images/logo/3eblogo.png" width="30" height="30" class="d-inline-block align-left" alt="">
               Third Eye Blind</a>
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Navigation
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Tour</a>
-                      <a class="dropdown-item" href="#">Music Videos</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>        
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    </ul>   
               </nav>
               </header>
               
@@ -169,6 +172,9 @@
                         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
                       </ol>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -191,10 +197,31 @@
                                     <div class="row">
                                             <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/El8WMY-rhHg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                                             <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/YORtQd4pr9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                                            <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/rE1oIhSgTgI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                                            <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/rE1oIhSgTgI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                            <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/U_MvEpIpEUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                            <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/eggoZzNVRNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                                         </div>
                                     </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                                <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/5l2xXhHLUi8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                                <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/ASbD2cPoE88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                                <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/_6nrQTU1Gz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                                <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/WEC-aYCxFrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                    <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/PxIDdmOFwOI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                                    <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/HdcX5AwAEK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                                    <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/hhkADdsn4k0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                                    <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/CQBbXe7XYe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row">
+                                                        <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/Di-gCvcbTvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                                    </div>
+                                                </div>
                             </div>
                     </div>
                       </div>
@@ -209,6 +236,8 @@
                     </div>
                 </div>
           </header>
+
+          
 
             <section id="Photos">
                     <h3 class="mt-5">Image gallery</h3>
@@ -353,9 +382,9 @@
             
 
               <!-- Links for Bootstrap-->
-              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+              <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
               <!-- JS for Fancybox -->
 	          <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 	          <script src="jquery.fancybox.min.js"></script>
