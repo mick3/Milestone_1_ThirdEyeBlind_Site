@@ -14,3 +14,7 @@ https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde
 Media
 image used for background found at: https://substreammagazine.com/2019/07/third-eye-blind-summer-gods-tour-photo/
 took an image from https://www.paradiso.nl/nl/programma/third-eye-blind/62618/ to use on the "tour dates" section of the page. Named it "Stephan_Jenkins.jpg"
+
+Changed "<" and ">" arrows on carousel colors because they are not noticeable by default. Also, changed the visibility of the 
+indicators that show which area in the available carousel slides are shown. Used these resources: https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel
+https://stackoverflow.com/questions/17872913/carousel-indicators-not-showing-up-on-white-background-on-slides-custom-style-o
