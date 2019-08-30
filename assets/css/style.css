@@ -5,8 +5,8 @@
     }
 }
 
-h5 {
-    display: inline-block;
+.landing-page-title {
+    padding: 15px;
 }
 
 .title {
