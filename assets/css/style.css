@@ -3,17 +3,16 @@
 .body {
     font-family: "Open Sans", "Open Sans Condensed", "Source Sans Pro";
     }
-}
 
-h5 {
-    color: #87ceeb;
-    text-shadow: black;
-    
+.navbar-toggler{
+    color: black;
+    border-color: black;
 }
 
 .landing-page-title {
-    padding: 15px;
+    padding: 5px;
     display: inline-block;
+    color: #87ceeb;
 }
 
 .title {
@@ -29,7 +28,7 @@ h5 {
     border-color: transparent;
     letter-spacing: 7px;
     text-transform: uppercase;
-    margin: 25px;
+    margin-left: 25px;
     
 }
 
