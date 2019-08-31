@@ -18,3 +18,5 @@ took an image from https://www.paradiso.nl/nl/programma/third-eye-blind/62618/ t
 Changed "<" and ">" arrows on carousel colors because they are not noticeable by default. Also, changed the visibility of the 
 indicators that show which area in the available carousel slides are shown. Used these resources: https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel
 https://stackoverflow.com/questions/17872913/carousel-indicators-not-showing-up-on-white-background-on-slides-custom-style-o
+
+Used https://wpshout.com/quick-guides/create-text-outline-css/ to create a black outline border on the navbar title "Third Eye Blind" to create separation from the background upon landing and scrolling the page. 
