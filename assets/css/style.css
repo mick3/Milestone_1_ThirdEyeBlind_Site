@@ -147,8 +147,9 @@ color: black;
     color: white;
 }
 
-.navbar-toggler > .fa-ellipsis-v {
+.fas fa-bars{
     color: #87ceeb;
+    background-color: #87ceeb;
     }
 
 /*-- change navbar dropdown color --*/
