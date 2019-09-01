@@ -147,9 +147,9 @@ color: black;
     color: white;
 }
 
-.fas {
-    background-color: #87ceeb;
-}
+.navbar-toggler > .fa-ellipsis-v {
+    color: #87ceeb;
+    }
 
 /*-- change navbar dropdown color --*/
 .navbar-light .navbar-nav .active, .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
