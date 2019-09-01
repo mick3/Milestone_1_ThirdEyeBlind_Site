@@ -9,6 +9,11 @@
     border-color: black;
 }
 
+.navbar-light .navbar-toggler {
+    color: black;
+    border-color: black;
+}
+
 .landing-page-title {
     padding: 5px;
     display: inline-block;
@@ -57,7 +62,6 @@
 
 .navbar-brand {
     float: left;
-    text-transform: uppercase;
 }
 
 /*-----JUMBOTRON-----*/
@@ -141,6 +145,10 @@ color: black;
 
 #booking-form {
     color: white;
+}
+
+.fas {
+    background-color: #87ceeb;
 }
 
 /*-- change navbar dropdown color --*/
