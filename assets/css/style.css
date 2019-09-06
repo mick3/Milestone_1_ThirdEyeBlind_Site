@@ -156,6 +156,12 @@
 		-1px 1px 0 #000,
         1px 1px 0 #000;
 }
+/*-- change border box for navbar dropdown --*/
+.navbar-light .navbar-toggler {
+    color: #87ceeb;
+    border-color: #87ceeb;
+}
+
 
 /* @media (max-width: 2000px) {
     .navbar-header {
