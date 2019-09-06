@@ -162,6 +162,9 @@
     border-color: #87ceeb;
 }
 
+.btn-light {
+    color: #fff;
+}
 
 /* @media (max-width: 2000px) {
     .navbar-header {
