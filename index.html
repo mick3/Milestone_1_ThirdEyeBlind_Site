@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+  <linke rel="script" href="assets/javascript/js.script"
   <!-- FancyBox CSS / CDN -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
@@ -18,12 +19,6 @@
     <!-- Font Awesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
     <script src="https://kit.fontawesome.com/e98b0bebae.js"></script>
-  
-    <script type="text/javascript">$(document).ready(function()
-    {
-
-    });
-    </script>
   
 </head>
 <body>
@@ -299,9 +294,12 @@
                                             <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/beINamVRGy4" border="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                                             <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/zP72VIL2IRI" border="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                                         </div>
-                                        <div class="pause-cycle-button">
-                                          <button type="button" class="btn btn-primary btn-customized">
-                                            <i class="far fa-pause-circle"></i>
+                                        <div class="pause-cycle-buttons">
+                                          <button type="button" class="btn btn-primary btn-customized btn-cycle disabled">
+                                              <i class="fas fa-play"></i>
+                                          </button>
+                                          <button type="button" class="btn btn-primary btn-customized btn-pause">
+                                              <i class="fas fa-pause"></i>
                                           </button>
                                       </div>
                             </div>
