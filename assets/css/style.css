@@ -172,14 +172,14 @@
 
 .carousel .carousel-indicators li {
     background-color: #fff;
-    background-color: rgba(70, 70, 70, 0.25);
+    background-color: #87ceeb;
   }
   
   .carousel .carousel-indicators .active {
-    background-color: #444;
+    background-color: #000;
   }
 
-  @media (min-width: 575) {
+  @media (max-width: 575) {
     .carousel-container {
         display: none;
     }
