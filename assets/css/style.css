@@ -179,7 +179,7 @@
     background-color: #000;
   }
 
-  @media (max-width: 575) {
+  @media (max-width: 575px) {
     .carousel-container {
         display: none;
     }
