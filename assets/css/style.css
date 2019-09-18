@@ -183,4 +183,9 @@
     .carousel-container {
         display: none;
     }
+
+    #music {
+        width: 95%;
+    }
+
     }
