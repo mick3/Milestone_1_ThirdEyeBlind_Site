@@ -172,11 +172,11 @@
 
 .carousel .carousel-indicators li {
     background-color: #fff;
-    background-color: #87ceeb;
+    background-color: #000;
   }
   
   .carousel .carousel-indicators .active {
-    background-color: #000;
+    background-color: #87ceeb;
   }
 
 
@@ -186,7 +186,4 @@
         display: none;
     }
 
-    .spotify {
-    }
-
-    }
+}
