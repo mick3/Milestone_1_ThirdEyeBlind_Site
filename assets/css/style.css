@@ -179,12 +179,14 @@
     background-color: #000;
   }
 
+
+
   @media (max-width: 575px) {
     .carousel-container {
         display: none;
     }
 
-    #music {
+    .spotify {
         width: 95%;
     }
 
