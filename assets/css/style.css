@@ -114,7 +114,7 @@
 #booking-form {
     background-attachment: fixed;
     background-image: url('../images/background/Stephan_Jenkins_shrunk.jpg');
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -123,6 +123,7 @@
     z-index: 1;
     border-radius: none;
     padding-top: 50px;
+    position: relative;
 }
 
 #music {
@@ -180,4 +181,9 @@
         display: none;
     }
 
+}
+
+.fas fa-calendar-day {
+    margin: 5px;
+    padding-left: 5px;
 }

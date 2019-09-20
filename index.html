@@ -248,20 +248,17 @@
                               <label for="inputPhone">Phone Number</label>
                               <input type="number" class="form-control" id="inputPhone" placeholder="(415) 555-5555">
                             </div>
-                            <div class="form-group col-md-4">
-                              <label for="exampleFormControlSelect1"># of Guests</label>
-                              <select class="form-control" id="exampleFormControlSelect1">
-                                <option>1-100</option>
-                                <option>101-500</option>
-                                <option>501-1000</option>
-                                <option>> 1000</option>
+                            <select class="custom-select custom-select-sm col-md-4">
+                                <option selected>Select # of guests</option>
+                                <option value="1">1-99</option>
+                                <option value="2">100-499</option>
+                                <option value="3">500-999</option>
+                                <option value="4">>1000</option>
                               </select>
-                              <form>
                                 <div class="form-group col-md-4">
                                 Date of Event:
                                 <input type="date" name="dateOfEvent">
                               </div>
-                              </form>
                               <div class="form-group col-12">
                                 <label for="exampleFormControlTextarea1">Optional Comments:</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
