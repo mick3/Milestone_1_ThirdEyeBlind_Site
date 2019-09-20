@@ -67,6 +67,7 @@
 }
 
 #landing-view {
+
     background-image: url('../images/background/3eb_glory_shrunk.jpg');
     background-position: bottom;
     background-size: cover;
@@ -182,6 +183,5 @@
 }
 
 .fas fa-calendar-day {
-    margin: 5px;
-    padding-left: 5px;
+    padding-left: 15px;
 }
