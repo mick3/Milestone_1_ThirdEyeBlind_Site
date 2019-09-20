@@ -67,7 +67,6 @@
 }
 
 #landing-view {
-    background-attachment: fixed;
     background-image: url('../images/background/3eb_glory_shrunk.jpg');
     background-position: bottom;
     background-size: cover;
@@ -112,7 +111,6 @@
 }
 
 #booking-form {
-    background-attachment: fixed;
     background-image: url('../images/background/Stephan_Jenkins_shrunk.jpg');
     background-position: center;
     background-size: cover;
