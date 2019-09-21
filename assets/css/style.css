@@ -97,6 +97,7 @@
     color: white;
     padding-top: 50px;
     background-color: black;
+    width: 100%;
     
 }
 
@@ -177,9 +178,16 @@
     .carousel-container {
         display: none;
     }
-
 }
 
-.fas fa-calendar-day {
+.cal {
+    padding-left: 5px;
+}
 
+.foot {
+    padding-top: 50px;
+}
+
+.icons {
+    padding: 3px;
 }
