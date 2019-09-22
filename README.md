@@ -23,3 +23,6 @@ Used https://wpshout.com/quick-guides/create-text-outline-css/ to create a black
 
 Testing
 Deleted background-attachment: fixed in my css for both background images. They were showing up on my iphone as 'zoomed in' and pixelated. So I deleted that, and reloaded the page on my iphone 6 and it rendered correctly.
+
+Bugs/Fixes:
+Sep 21, 2019: I added to the CSS rule "@media (max-width: 575px)" a media query that would make the Title Text "Third Eye Blind" in the navbar, on smaller screens, a smaller font-size so that the title wouldn't push the navbar dropdown to the second-line of the navbar. Shortly after this, I noticed on updated viewing of the Github pages "live page" of the project that it had totally removed the title altogether. I also had added a span element to the h5 element of the title. Upon seeing this I tried to revert my repository to an earlier version of the project. So far, I have not been able to get the title back, despite the html5 code still remaining. Meaning, the title has completely disappeared from the project. 
