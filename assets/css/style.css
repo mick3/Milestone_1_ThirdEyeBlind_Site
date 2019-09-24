@@ -196,3 +196,7 @@
     color: #87ceeb;
     display: inline-block;
 }
+
+.table {
+    text-align: left;
+}
