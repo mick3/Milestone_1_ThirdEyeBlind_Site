@@ -181,6 +181,9 @@
     .carousel-container {
         display: none;
     }
+    .landing-page-title{
+        font-size: 12px;
+    }
 }
 
 .cal {
@@ -200,3 +203,4 @@
 .table {
     text-align: left;
 }
+
