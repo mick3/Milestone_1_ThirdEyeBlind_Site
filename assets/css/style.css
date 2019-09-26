@@ -113,6 +113,8 @@
 
 #photos {
     padding-top: 50px;
+    margin: 0 auto;
+
 }
 
 #booking-form {
@@ -193,15 +195,15 @@
 
 .foot {
     padding-top: 50px;
+    background-color: #000;
+    position:fixed;
+    bottom: 0px;
+    margin: auto;
 }
 
-.icons {
+.icon{
     padding: 3px;
     color: #87ceeb;
-    display: inline-block;
 }
 
-.table {
-    text-align: left;
-}
 
