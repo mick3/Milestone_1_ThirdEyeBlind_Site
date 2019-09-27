@@ -4,6 +4,7 @@
   <title>Third Eye Blind</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <!-- FancyBox CSS-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
@@ -13,8 +14,9 @@
    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <main>
+
         <header class="jumbotron" id="landing-view">
+        
             <nav class="navbar fixed-top navbar-light bg-transparent">
                 <a class="navbar-brand align-left">
                   <img src="assets/images/logo/3eblogo.png" width="30" height="30" class="d-inline-block align-left" alt="logo"><h5 class="landing-page-title d-sm-inline-block">Third Eye Blind</h5>
@@ -42,10 +44,12 @@
                   </ul>
                     </div>  
               </nav>
+
               </header>
               
+              
 
-            
+            <main>
             <!--*******TOUR DATES*******-->
             <section id="tour-dates">
                     <div class="row">
@@ -130,17 +134,17 @@
             <!--*******Music*******-->
             <section class="container" id="music">    
             <div class="row">
-                <div class="col-12">
+                <div class="col-sm-12 col-md-4 col-lg-4">
                     <h2>Music</h2>
                 </div>
             </div>
                     <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-4 spotify">
-                    <iframe src="https://open.spotify.com/embed/playlist/3nlD7gJzTOe6mWcUodjHMo" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                    <iframe src="https://open.spotify.com/embed/playlist/3nlD7gJzTOe6mWcUodjHMo" width="300" height="630" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                   </div>
 
                   <!-- Carousel -->
-                    <div class="col-xs-none col-sm-none col-md-12 col-lg-8 carousel-container">
+                    <div class="col-xs-none col-sm-none col-md-8 col-lg-8 carousel-container">
                         <h2>Videos</h2>  
                       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                           <ol class="carousel-indicators">
@@ -223,7 +227,8 @@
             </section>
 
             <!--*******BOOKING FORM*******-->
-            <section class= "container" id="booking-form">
+            <section id="booking-form">
+              <div class="container">
                     <h2>Booking</h2>
                     <p>To book the band for your next live event, use the form below:</p>
                     <form>
@@ -240,17 +245,19 @@
                               <label for="inputPhone">Phone Number</label>
                               <input type="number" class="form-control" id="inputPhone" placeholder="(415) 555-5555">
                             </div>
-                            <select class="custom-select custom-select-sm col-md-4">
-                                <option selected>Select # of guests</option>
+                            <div class="row">
+                            <select class="custom-select col-sm-6">
+                                <option value="0">Select # of Guests</option>
                                 <option value="1">1-99</option>
                                 <option value="2">100-499</option>
                                 <option value="3">500-999</option>
                                 <option value="4">>1000</option>
                               </select>
-                                <div class="form-group col-6 col-md-4 col-lg-6">
-                                Date of Event:
-                                <input type="date" name="dateOfEvent"><span class="cal"><i class="fas fa-calendar-day"></i></span>
+                                <div class="form-group col-sm-6">
+                                    <label for="eventDate">Date of Event:</label>
+                                <input type="date" name="dateOfEvent" id="eventDate"><span class="cal"><i class="fas fa-calendar-day"></i></span>
                               </div>
+                            </div>
                               <div class="form-group col-12">
                                 <label for="exampleFormControlTextarea1">Optional Comments:</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -261,29 +268,37 @@
                             <button type="submit" class="btn btn-primary">Submit</button>
                           </div>
                           </form>
+                        </div>
             </section>
+          </main>
     
 <!-- Footer for social media links-->
 <footer class="page-footer">
     <ul>
-      <li><a href="https://itunes.apple.com/us/artist/third-eye-blind/733629" target="_blank"><i class="fab fa-apple fa-2x"></i></a></li>
-      <li><a href="https://www.instagram.com/thirdeyeblind/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
-      <li><a href="https://twitter.com/thirdeyeblind" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
-      <li><a href="https://soundcloud.com/thirdeyeblind" target="_blank"><i class="fab fa-soundcloud fa-2x"></i></a></li>
-      <li><a href="https://www.youtube.com/user/thirdeyeblind" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+      <li><a href="https://itunes.apple.com/us/artist/third-eye-blind/733629" target="_blank"><i class="fab fa-apple fa-2x"></i></a></li>
     </ul>
-      </footer>
-        </main>
-<!-- JS for Fancybox -->
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <ul>
+      <li><a href="https://www.instagram.com/thirdeyeblind/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+    </ul>
+    <ul>
+      <li><a href="https://twitter.com/thirdeyeblind" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+    </ul>
+    <ul>
+      <li><a href="https://soundcloud.com/thirdeyeblind" target="_blank"><i class="fab fa-soundcloud fa-2x"></i></a></li>
+    </ul>
+    <ul><a href="https://www.youtube.com/user/thirdeyeblind" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></ul>
+    <ul>
+</footer>
+
+
+
 <!-- Links for Bootstrap-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- JS for Fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <!-- JS for navbar-->
 <script src="assets/js/javascript.js"></script>
