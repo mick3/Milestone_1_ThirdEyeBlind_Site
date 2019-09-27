@@ -189,21 +189,25 @@
     }
 }
 
+.photos {
+    justify-content: center;
+}
+
 .cal {
     padding-left: 5px;
 }
 
-.foot {
-    padding-top: 50px;
-    background-color: #000;
-    position:fixed;
-    bottom: 0px;
-    margin: auto;
-}
-
-.icon{
-    padding: 3px;
-    color: #87ceeb;
-}
+.page-footer{
+    display:flex;
+  }
+  
+  .page-footer ul{
+    justify-content:center;
+    text-align:center;
+  }
+  
+  .page-footer ul li{
+    display:inline-block;
+   }
 
 
