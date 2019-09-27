@@ -187,6 +187,10 @@
     .landing-page-title{
         font-size: 12px;
     }
+    #booking-form{
+        background-image: none;
+        background-color: #000;
+    }
 }
 
 .photos {
@@ -212,4 +216,8 @@
 
 .fab fa-apple {
     color: #87ceeb;
+}
+
+.form {
+    padding-top: 25px;
 }

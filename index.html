@@ -42,13 +42,9 @@
                           <a class="nav-link" href="#booking-form">Booking</a>
                       </li>
                   </ul>
-                    </div>  
+              </div>  
               </nav>
-
               </header>
-              
-              
-
             <main>
             <!--*******TOUR DATES*******-->
             <section id="tour-dates">
@@ -231,44 +227,35 @@
               <div class="container">
                     <h2>Booking</h2>
                     <p>To book the band for your next live event, use the form below:</p>
-                    <form>
-                            <div class="form-row">
-                              <div class="form-group col-md-4">
-                                <label for="inputName">Name</label>
-                                <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    <form> 
+                        <div class="row form">
+                            <div class="col-8">
+                                <label for="exampleName">Name</label>
+                                <input type="name" class="form-control" placeholder="Enter your name" required>
                               </div>
-                              <div class="form-group col-md-4">
-                                <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                              </div>
-                            <div class="form-group col-md-4">
-                              <label for="inputPhone">Phone Number</label>
-                              <input type="number" class="form-control" id="inputPhone" placeholder="(415) 555-5555">
-                            </div>
-                            <div class="row">
-                            <select class="custom-select col-sm-6">
-                                <option value="0">Select # of Guests</option>
-                                <option value="1">1-99</option>
-                                <option value="2">100-499</option>
-                                <option value="3">500-999</option>
-                                <option value="4">>1000</option>
-                              </select>
-                                <div class="form-group col-sm-6">
-                                    <label for="eventDate">Date of Event:</label>
-                                <input type="date" name="dateOfEvent" id="eventDate"><span class="cal"><i class="fas fa-calendar-day"></i></span>
-                              </div>
-                            </div>
-                              <div class="form-group col-12">
-                                <label for="exampleFormControlTextarea1">Optional Comments:</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                              </div>
-                            </div>
-                              </div>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                          <div class="col-4">
+                            <label for="exampleEmail">Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="(415)555-5555" required>
                           </div>
-                          </form>
+                          <div class="col-4">
+                            <label for="exampleEmail">Email Address</label>
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                          </div>
+                          <div class="col-4">
+                              <label for="exampleFormControlSelect1"># of Guests</label>
+                              <select class="form-control" id="exampleFormControlSelect1" required>
+                                <option>1-99</option>
+                                <option>100-499</option>
+                                <option>500-999</option>
+                                <option>>1000</option>
+                              </select>
+                          </div>
                         </div>
+                          <div class="submit btn">
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+              </div>
             </section>
           </main>
     
