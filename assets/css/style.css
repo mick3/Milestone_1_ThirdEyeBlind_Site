@@ -161,10 +161,8 @@
     border-color: #87ceeb;
 }
 
-.btn btn-light {
+.btn .btn-light {
     color: #000;
-    padding-top: 5px;
-    border-radius: 0px;
 }
 
 .carousel-indicators {
@@ -225,5 +223,7 @@
     padding-top: 25px;
 }
 
-    
+.btn btn-light .submit{
+    float: right;
+}
 
