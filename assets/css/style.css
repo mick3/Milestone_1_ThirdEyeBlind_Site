@@ -189,7 +189,8 @@
     }
     #booking-form{
         background-image: none;
-        background-color: #000;
+        background-color: #fff;
+        color: #000;
     }
 }
 
@@ -221,3 +222,10 @@
 .form {
     padding-top: 25px;
 }
+
+.btn btn-light {
+    color: #87ceeb !important;;
+    padding-top: 5px !important;;
+}
+    
+
