@@ -221,9 +221,13 @@
 
 .form {
     padding-top: 25px;
+    position: relative;
 }
 
 .btn btn-light .submit{
     float: right;
 }
 
+.page-footer {
+    padding-top: 50px;
+}
