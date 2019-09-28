@@ -179,14 +179,9 @@
             <!-- Image Gallery -->
             <section class="container" id="photos">
               <h3 class="mt-5">Image gallery</h3>
-
-              <p>
-                Groups are created by adding the same <code>data-fancybox</code> attribute value
-              </p>
-              
               <p class="imglist" style="max-width: 1000px;">
-                <a href="https://source.unsplash.com/juHayWuaaoQ/1500x1000" data-fancybox="images">
-                  <img src="https://source.unsplash.com/juHayWuaaoQ/240x160" alt="image one" />
+                <a href="assets/images/photogallery/acoustic.jpg" data-fancybox="images">
+                  <img src="assets/images/photogallery/acoustic.jpg" alt="image one" />
                 </a>
               
                 <a href="https://source.unsplash.com/eWFdaPRFjwE/1500x1000" data-fancybox="images">
@@ -230,10 +225,6 @@
                                 <input type="text" class="form-control" id="exampleName" placeholder="Enter your name" required>
                               </div>
                           <div class="form-group col-lg-6">
-                            <label for="phoneNumber">Phone Number</label>
-                            <input type="tel" class="form-control" id="phoneNumber" placeholder="(415)555-5555" required>
-                          </div>
-                          <div class="form-group col-lg-6">
                             <label for="emailAddress">Email Address</label>
                             <input type="email" class="form-control" id="emailAddress" placeholder="Enter your email" required>
                           </div>
@@ -248,8 +239,12 @@
                               </select>
                           </div>
                           <div class="form-group col-lg-6">
-                              <label for="addtionalComments">Additional comments:</label>
-                              <textarea class="form-control" id="addtionalComments" rows="2"></textarea>
+                              <label for="exampleDate">Date of Event</label>
+                              <input type="date" class="form-control" id="exampleDate" required>
+                            </div>
+                          <div class="form-group col-lg-6">
+                              <label for="additionalComments">Additional comments</label>
+                              <textarea class="form-control" id="additionalComments" rows="2"></textarea>
                             </div>
                             <div class="form-group">
                             <button type="submit" class="btn btn-light submit">Submit</button>
