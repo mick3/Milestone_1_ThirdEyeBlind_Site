@@ -215,7 +215,23 @@
     display:inline-block;
    }
 
-.fab fa-apple {
+.fa-apple {
+    color: #87ceeb;
+}
+
+.fa-instagram{
+    color: #87ceeb;
+}
+
+.fa-twitter {
+    color: #87ceeb;
+}
+
+.fa-soundcloud{
+    color: #87ceeb;
+}
+
+.fa-youtube {
     color: #87ceeb;
 }
 
@@ -224,10 +240,18 @@
     position: relative;
 }
 
-.btn btn-light .submit{
+.submit {
     float: right;
+    border-color: #000;
+}
+
+.submit:hover {
+    color: #87ceeb;
 }
 
 .page-footer {
     padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
