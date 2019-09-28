@@ -15,10 +15,6 @@ Media
 image used for background found at: https://substreammagazine.com/2019/07/third-eye-blind-summer-gods-tour-photo/
 took an image from https://www.paradiso.nl/nl/programma/third-eye-blind/62618/ to use on the "tour dates" section of the page. Named it "Stephan_Jenkins.jpg"
 
-Changed "<" and ">" arrows on carousel colors because they are not noticeable by default. Also, changed the visibility of the 
-indicators that show which area in the available carousel slides are shown. Used these resources: https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel
-https://stackoverflow.com/questions/17872913/carousel-indicators-not-showing-up-on-white-background-on-slides-custom-style-o
-
 Used https://wpshout.com/quick-guides/create-text-outline-css/ to create a black outline border on the navbar title "Third Eye Blind" to create separation from the background upon landing and scrolling the page. 
 
 Testing
@@ -29,3 +25,6 @@ Sep 21, 2019: I added to the CSS rule "@media (max-width: 575px)" a media query 
 
 Collapsible navbar dropdown code found here:
 https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
+
+I received help from Anthony O'Brien, a channel lead for "User Centric Front-End": he let me use some javascript for the main dropdown menu to collapse after clicking on one of the menu elements, since the entire project is a singe-page HTML project. The default dropdown menu wasn't sufficient for use with a single-page element.
+
