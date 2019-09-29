@@ -15,6 +15,14 @@ Media
 image used for background found at: https://substreammagazine.com/2019/07/third-eye-blind-summer-gods-tour-photo/
 took an image from https://www.paradiso.nl/nl/programma/third-eye-blind/62618/ to use on the "tour dates" section of the page. Named it "Stephan_Jenkins.jpg"
 
+1."acoustic.jpg" taken from https://trilliumfamily.org/advocacy-platform/look-keep-oregon-well-with-third-eye-blind-in-the-skype-live-studio-photos-video/
+
+2."screamer_tour.jpg" taken from https://loudwire.com/third-eye-blind-fall-2019-tour/
+
+3."band_bw.jpg" taken from https://www.billboard.com/articles/news/7834041/third-eye-blind-summer-gods-EP-album-tour-interview
+
+4."band_bw_dopamine.jpg" taken from https://crypticrock.com/third-eye-blind-dopamine-album-review/.
+
 Used https://wpshout.com/quick-guides/create-text-outline-css/ to create a black outline border on the navbar title "Third Eye Blind" to create separation from the background upon landing and scrolling the page. 
 
 Testing
