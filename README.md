@@ -5,7 +5,7 @@ User Centric Frontend Development Milestone Project
 ## UX
 This website is for new fans of the band, old fans, and people who have just now heard of the band. The site has everything you'd want to get to know the sound of the band and the look of the band members. The only thing the site doesn't have is a store to buy merchandise. I wanted to implement a very simple and straight forward navigating experience. Starting off on the landing page with a 'hero' image of the lead singer, once you get to this point, you know you're in the right place. The site is a single-page app navigable from the dropdown menu or scrollable.
 
-## The main wireframe for the conception of this project was created using Balsamiq Mockups 3, and is viewable from the main file structure of the repository. Other images used to design and 'flesh out' the site design are also viewable from the repository. The images are pictures of a notepad that were written up during the project to get over idea blockages.
+#### The main wireframe for the conception of this project was created using Balsamiq Mockups 3, and is viewable from the main file structure of the repository. Other images used to design and 'flesh out' the site design are also viewable from the repository. The images are pictures of a notepad that were written up during the project to get over idea blockages.
 
 ## User Stories:
 1. As a longtime fan of Third Eye Blind, I can navigate to this site and listen to their entire playlist on spotify.
@@ -37,12 +37,12 @@ I didn't really think about this until the end of the project, but would like to
 I would also like to implement a 'stop-scrolling-while-video-plays' function for when a user clicks one of the videos in the carousel to play. The carousel keeps scrolling otherwise. 
 
 ## Technologies used
-  ### HTML 5
-  ### CSS3
-  ### Javascript
-  ### Fancybox
-  ### Bootstrap 4.3.1
-  ### Font Awesome
+  #### HTML 5
+  #### CSS3
+  #### Javascript
+  #### Fancybox
+  #### Bootstrap 4.3.1
+  #### Font Awesome
   
   ## Deployment
   I deployed the website to Github pages by, first creating a repository for where my code exists. I clicked the "new" button in my main github login page. It then takes you to the page where you name your repository. You can make your repository public or private. I made mine public. I initialized the repository with a README.md file. I then created files in my code editor VSCode and pushed the files to the repository via terminal and git commands. I made sure to create the 'index.html' file so that github and github pages would publish that as the main page versus not having the index.html file and github defaulting to host the readme.md file as the main file. 
@@ -87,7 +87,7 @@ Deleted "background-attachment: fixed" in my css for both background images. The
 
 As I worked through the project, I primarily tested the site on mobile by using my own iPhone 6s (Safari 13). This helped me immensely and helped to cover some of the smallest screen sizes needed to be covered in my project. 
 
-Browsers I tested the site on include: Chrome Version 76.0.3809.100 (Official Build) (64-bit), Firefox Quantum 69.0.1 (64-bit), Safari Version 13.0.1 (14608.2.11.1.11). I was unable to test on Microsoft versions of browsers (Edge, IE). 
+Browsers I tested the site on include: Chrome Version 76.0.3809.100 (Official Build) (64-bit), Firefox Quantum 69.0.1 (64-bit), Safari Version 13.0.1 (14608.2.11.1.11) and Opera Version:63.0.3368.94. I was unable to test on Microsoft versions of browsers (Edge, IE) because I don't own any Microsoft products. But in hind sight, I could have gone to Best Buy to test on their sample models.
 
 
 
