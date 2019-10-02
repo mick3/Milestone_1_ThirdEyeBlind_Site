@@ -22,12 +22,12 @@ I would like to somehow include more music videos on the site, but for the sake 
 I would like to implement a newsletter sign up also, perhaps.
 
 ## Technologies used
-  ## HTML 5
-  ## CSS3
-  ## Javascript
-  ## Fancybox
-  ## Bootstrap 4.3.1
-  ## Font Awesome
+  ### HTML 5
+  ### CSS3
+  ### Javascript
+  ### Fancybox
+  ### Bootstrap 4.3.1
+  ### Font Awesome
 
 
 I utilized a third party library for the image gallery on the page. This is called "Fancybox" and can be seen from visiting: http://fancyapps.com/fancybox/3/docs/#introduction .
