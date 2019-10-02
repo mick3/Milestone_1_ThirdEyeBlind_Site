@@ -1,11 +1,11 @@
 # Milestone_1_ThirdEyeBlind_Site
-#By: Mike Webber
+### By: Mike Webber
 User Centric Frontend Development Milestone Project
 
 ## UX
 This website is for new fans of the band, old fans, and people who have just now heard of the band. The site has everything you'd want to get to know the sound of the band and the look of the band members. The only thing the site doesn't have is a store to buy merchandise. I wanted to implement a very simple and straight forward navigating experience. Starting off on the landing page with a 'hero' image of the lead singer, once you get to this point, you know you're in the right place. The site is a single-page app navigable from the dropdown menu or scrollable.
 
-## The main wireframe for the conception of this project was created using Balsamiq Mockups 3, and is viewable from the main file structure of the repository. Other images used to design and 'flesh out' the site design are also viewable from the repository. The images are pictures of a note pad that were written up during the project to get over idea blockages.
+## The main wireframe for the conception of this project was created using Balsamiq Mockups 3, and is viewable from the main file structure of the repository. Other images used to design and 'flesh out' the site design are also viewable from the repository. The images are pictures of a notepad that were written up during the project to get over idea blockages.
 
 ## User Stories:
 1. As a longtime fan of Third Eye Blind, I can navigate to this site and listen to their entire playlist on spotify.
@@ -13,13 +13,15 @@ This website is for new fans of the band, old fans, and people who have just now
 3. As a concert goer who wants to see Third Eye Blind live, I can come to this site to view upcoming tour date times and locations, as well as purchase tickets from external sites.
 4. As someone who wants to host the band at an event, I can fill out the form at the bottom of the page and someone will contact me about that event in the future.
 
-# Features
+## Features
 The first thing we see when we navigate to the page is a hero image of the lead singer. The second section is a tour date list and ways to purchase tickets. The third part of the project is where you can listen to music by the band or watch a music video. The next section is an Image Gallery. The section after that is a booking form you can use to book the band for an event. And in the footer there are more ways to follow the band or listen to more of their music on other web services.
 
 ### Features left to implement:
 I would like to somehow include more music videos on the site, but for the sake of brevity, I selected videos "throughout" the career of the band, providing an oversight of their music.
 
-I would like to implement a newsletter sign up also, perhaps.
+I didn't really think about this until the end of the project, but would like to implement a tagline at the bottom of the 'landing-page' that explains a little bit about Third Eye Blind.
+
+I would also like to implement a 'stop-scrolling-while-video-plays' function for when a user clicks one of the videos in the carousel to play. The carousel keeps scrolling otherwise. 
 
 ## Technologies used
   ### HTML 5
@@ -28,18 +30,19 @@ I would like to implement a newsletter sign up also, perhaps.
   ### Fancybox
   ### Bootstrap 4.3.1
   ### Font Awesome
+  
+  ## Deployment
+  I deployed the website to Github pages by, first creating a repository for where my code exists. I clicked the "new" button in my main github login page. It then takes you to the page where you name your repository. You can make your repository public or private. I made mine public. I initialized the repository with a README.md file. I then created files in my code editor VSCode and pushed the files to the repository via terminal and git commands. I made sure to create the 'index.html' file so that github and github pages would publish that as the main page versus not having the index.html file and github defaulting to host the readme.md file as the main file. 
+  
+I added the link to the live Github pages link to the Github repository so you can navigate it without having to go to settings in github.
 
+Otherwise, to find the Github Pages live page, go to Settings and scroll down to where the link to the page is, and click on it. This will take you to the live page. 
 
-I utilized a third party library for the image gallery on the page. This is called "Fancybox" and can be seen from visiting: http://fancyapps.com/fancybox/3/docs/#introduction .
+## Media
+image used for jumbotron landing-page background found at: https://substreammagazine.com/2019/07/third-eye-blind-summer-gods-tour-photo/
+took an image from https://www.paradiso.nl/nl/programma/third-eye-blind/62618/ to use on the "booking-area" section of the page. Named it "Stephan_Jenkins.jpg"
 
-Used this demo to display more than one item in the carousel at a time on large screens. Must utilize media queries to sort out smaller screens though. 
-https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde
-
-Media
-image used for background found at: https://substreammagazine.com/2019/07/third-eye-blind-summer-gods-tour-photo/
-took an image from https://www.paradiso.nl/nl/programma/third-eye-blind/62618/ to use on the "tour dates" section of the page. Named it "Stephan_Jenkins.jpg"
-
-All images in Image Gallery were downsized at http://www.onlineimageresize.com/. Images used for the Image gallery were resized to be small for thumbnail viewing with the fancybox app, and all file names of the resize are named "onlineimageresize_com_" followed by the original file name. For example, the thumbnail for "acoustic.jpg" is named "onlineimageresize_com_acoustic.jpg".
+All images in Image Gallery were downsized at http://www.onlineimageresize.com/. Images used for the Image gallery were resized to be small for thumbnail viewing with the fancybox app, and all file names of the resize are named "onlineimageresize_com_" followed by the original file name. For example, the thumbnail for "acoustic.jpg" is named "onlineimageresize_com_acoustic.jpg" after running it through the downsize web app aforementioned.
 
 1."acoustic.jpg" taken from https://trilliumfamily.org/advocacy-platform/look-keep-oregon-well-with-third-eye-blind-in-the-skype-live-studio-photos-video/
 
@@ -59,16 +62,26 @@ All images in Image Gallery were downsized at http://www.onlineimageresize.com/.
 
 9."3eblogo.png" used in the navbar was taken from the Third Eye Blind Facebook group site.
 
-Used https://wpshout.com/quick-guides/create-text-outline-css/ to create a black outline border on the navbar title "Third Eye Blind" and the navbar dropdown, to create separation from the background upon landing and scrolling the page. 
+Used https://wpshout.com/quick-guides/create-text-outline-css/ to create a black outline border on the navbar title "Third Eye Blind" and the navbar dropdown, to create separation from the background upon landing and scrolling the page for viewability with the light blue color used.
 
-Testing
+I utilized a third party library for the image gallery on the page. This is called "Fancybox" and can be seen from visiting: http://fancyapps.com/fancybox/3/docs/#introduction .
+
+Used this demo to display more than one item in the carousel at a time on large screens. Must utilize media queries to sort out smaller screens though. 
+https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde
+
+## Testing
 Deleted "background-attachment: fixed" in my css for both background images. They were showing up on my iphone as 'zoomed in' and pixelated. So I deleted that, and reloaded the page on my iphone 6 and it rendered correctly.
 
-Bugs/Fixes:
-Sep 21, 2019: I added to the CSS rule "@media (max-width: 575px)" a media query that would make the Title Text "Third Eye Blind" in the navbar, on smaller screens, a smaller font-size so that the title wouldn't push the navbar dropdown to the second-line of the navbar. Shortly after this, I noticed on updated viewing of the Github pages "live page" of the project that it had totally removed the title altogether. I also had added a span element to the h5 element of the title. Upon seeing this I tried to revert my repository to an earlier version of the project. So far, I have not been able to get the title back, despite the html5 code still remaining. Meaning, the title has completely disappeared from the project. 
+As I worked through the project, I primarily tested the site on mobile by using my own iPhone 6s. This helped me immensely and helped to cover some of the smallest screen sizes needed to be covered in my project. 
+
+
+
+## Bugs/Fixes:
 
 Collapsible navbar dropdown code found here:
 https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
 
 I received help from Anthony O'Brien, a channel lead for "User Centric Front-End": he let me use some javascript for the main dropdown menu to collapse after clicking on one of the menu elements, since the entire project is a singe-page HTML project. The default dropdown menu wasn't sufficient for use with a single-page element because it only disappears because we are navigating to a different page and it is reloading an entire page. I have a single-page web app, so after you click the dropdown, it navigates to a different page section, and also collapses with the javascript implementation.
 
+### Acknowledgements
+I received inspiration for a more "modern" look and "minimal" look by looking at the highest graded Milestone project submitted by Haley Schafer.
