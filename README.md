@@ -16,7 +16,7 @@ This website is for new fans of the band, old fans, and people who have just now
 
 ### Design:
 
-I wanted the site to be minimal in appearance, yet definitive in it's delivery of pertinent content about the band, Third Eye Blind.
+I wanted the site to be minimal in appearance, yet definitive in it's delivery of pertinent content about the band, Third Eye Blind. When loading the page, we are immediately greeted by a hero image of the lead singer bathed in a nice ambience of light at one of their concerts. This will tell you that if you didn't already know, Third Eye Blind is a band. Then you scroll the page and learn more about them and their music.
 
 #### Font:
 
