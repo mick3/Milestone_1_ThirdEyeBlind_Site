@@ -12,6 +12,19 @@ This website is for new fans of the band, old fans, and people who have just now
 2. As a new fan of Third Eye Blind, I can go to this site to find all their music and listen to it.
 3. As a concert goer who wants to see Third Eye Blind live, I can come to this site to view upcoming tour date times and locations, as well as purchase tickets from external sites.
 4. As someone who wants to host the band at an event, I can fill out the form at the bottom of the page and someone will contact me about that event in the future.
+5. As a developer, I want to showcase my skills to date utilizing HTML5, CSS3, Bootstrap and other libraries to make a website dedicated to one of my favorite bands.
+
+### Design:
+
+I wanted the site to be minimal in appearance, yet definitive in it's delivery of pertinent content about the band, Third Eye Blind.
+
+#### Font:
+
+The project's main font is Open Sans and Source Sans Pro as a backup. I originally saw these fonts in use on the bands already existing website and thought they worked well with the feel of what font should be used. I didn't have to reinvent the wheel either.
+
+#### Color Scheme:
+
+The main colors used in the project are Black (#000) and White (#FFF) as well as North Carolina Blue or Baby Blue (#87ceeb). I didn't want to overwhelm anyone with a complicated and unecessary color scheme selection so I kept it simple. I thought the #87ceeb color went well with the lyrics of the band which often are "daydreamy" and "hopeful", so I used sky blue.
 
 ## Features
 The first thing we see when we navigate to the page is a hero image of the lead singer. The second section is a tour date list and ways to purchase tickets. The third part of the project is where you can listen to music by the band or watch a music video. The next section is an Image Gallery. The section after that is a booking form you can use to book the band for an event. And in the footer there are more ways to follow the band or listen to more of their music on other web services.
@@ -72,7 +85,9 @@ https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde
 ## Testing
 Deleted "background-attachment: fixed" in my css for both background images. They were showing up on my iphone as 'zoomed in' and pixelated. So I deleted that, and reloaded the page on my iphone 6 and it rendered correctly.
 
-As I worked through the project, I primarily tested the site on mobile by using my own iPhone 6s. This helped me immensely and helped to cover some of the smallest screen sizes needed to be covered in my project. 
+As I worked through the project, I primarily tested the site on mobile by using my own iPhone 6s (Safari 13). This helped me immensely and helped to cover some of the smallest screen sizes needed to be covered in my project. 
+
+Browsers I tested the site on include: Chrome Version 76.0.3809.100 (Official Build) (64-bit), Firefox Quantum 69.0.1 (64-bit), Safari Version 13.0.1 (14608.2.11.1.11). I was unable to test on Microsoft versions of browsers (Edge, IE). 
 
 
 
@@ -80,6 +95,7 @@ As I worked through the project, I primarily tested the site on mobile by using 
 
 Collapsible navbar dropdown code found here:
 https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
+Since I created a single-page app, the default navbar wasn't enough. The default navbar expects when you are clicking to go to a different segment of the page, that you'll be reloading the entire site and navigating elsewhere. For a single-page app, additional code was needed.
 
 I received help from Anthony O'Brien, a channel lead for "User Centric Front-End": he let me use some javascript for the main dropdown menu to collapse after clicking on one of the menu elements, since the entire project is a singe-page HTML project. The default dropdown menu wasn't sufficient for use with a single-page element because it only disappears because we are navigating to a different page and it is reloading an entire page. I have a single-page web app, so after you click the dropdown, it navigates to a different page section, and also collapses with the javascript implementation.
 
