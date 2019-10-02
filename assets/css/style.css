@@ -1,5 +1,5 @@
 /*-----GOOGLE FONTS-----*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans|Source+Sans+Pro&display=swap');
 
 .navbar-toggler{
     color: black;
@@ -20,6 +20,10 @@
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
+}
+
+.h5 {
+    font-family: Open Sans, Source Sans Pro;
 }
 
 .title {
@@ -92,12 +96,21 @@
 }
 
 #tour-dates {
-    color: white;
+    color: black;
     padding-top: 50px;
-    background-color: black;
+    background-color: white;
     width: 100%;
     overflow-x: scroll;
+    font-family: Open Sans, Source Sans Pro;
     
+}
+
+.btn-light {
+    border-color: #000;
+}
+
+.btn-light:hover {
+    color: #87ceeb;
 }
 
 .tour-head {
@@ -105,7 +118,7 @@
 }
 
 .table {
-    color: white;
+    color: black;
     text-align: left;
     padding: 0 px;
 }
@@ -114,7 +127,6 @@
 #photos {
     padding-top: 50px;
     margin: 0 auto;
-
 }
 
 #booking-form {
@@ -132,6 +144,7 @@
 
 #music {
     padding-top: 50px;
+    font-family: Open Sans, Source Sans Pro;
 }
 
 .nav-link {
@@ -140,6 +153,7 @@
 
 #booking-form {
     color: white;
+    font-family: Open Sans, Source Sans Pro;
 }
 
 .fa-bars {
@@ -161,14 +175,6 @@
     border-color: #87ceeb;
 }
 
-.btn .btn-light {
-    color: #000;
-}
-
-.carousel-indicators {
-    color: black;
-}
-
 .carousel .carousel-indicators li {
     background-color: #fff;
     background-color: #000;
@@ -180,30 +186,19 @@
 
 
 
-  @media (max-width: 575px) {
-    .carousel-container {
-        display: none;
-    }
-    .landing-page-title{
-        font-size: 12px;
-    }
-    #booking-form{
-        background-image: none;
-        background-color: #fff;
-        color: #000;
-    }
-}
+  
 
 .photos {
     justify-content: center;
 }
 
-.cal {
-    padding-left: 5px;
-}
+/*-- Footer Styling --*/
 
 .page-footer{
     display:flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
   }
   
   .page-footer ul{
@@ -215,6 +210,20 @@
     display:inline-block;
    }
 
+.form {
+    padding-top: 25px;
+    position: relative;
+}
+
+.submit {
+    border-color: #000;
+}
+
+.submit:hover {
+    color: #87ceeb;
+}
+
+/*-- Social Media Icon styling (footer) --*/
 .fa-apple {
     color: #87ceeb;
 }
@@ -235,22 +244,19 @@
     color: #87ceeb;
 }
 
-.form {
-    padding-top: 25px;
-    position: relative;
-}
-
-.submit {
-    border-color: #000;
-}
-
-.submit:hover {
-    color: #87ceeb;
-}
-
-.page-footer {
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/*-- Breakpoint Styling (0-575px screen-width) --*/
+@media (max-width: 575px) {
+    .carousel-container {
+        display: none;
+    }
+    /*-- smaller title font so navbar fits on smaller screens --*/
+    .landing-page-title{
+        font-size: 12px;
+    }
+    /*-- delete background image for booking form on smaller screens --*/
+    #booking-form{
+        background-image: none;
+        background-color: #fff;
+        color: #000;
+    }
 }
