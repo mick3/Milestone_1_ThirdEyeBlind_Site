@@ -96,7 +96,7 @@ As I worked through the project, I primarily tested the site on mobile by using 
 
 Browsers I tested the site on include: Chrome Version 76.0.3809.100 (Official Build) (64-bit), Firefox Quantum 69.0.1 (64-bit), Safari Version 13.0.1 (14608.2.11.1.11) and Opera Version:63.0.3368.94. I was unable to test on Microsoft versions of browsers (Edge, IE) because I don't own any Microsoft products. But in hind sight, I could have gone to Best Buy to test on their sample models.
 
-Using the 'booking form', in order to submit it, you need to fill out each of the fields. If you miss a field, there is a warning asking you to fill out said field in the form.
+Using the 'booking form', in order to submit it, you need to fill out each of the fields. If you miss a field, there is a warning asking you to fill out said field in the form. The exception is the optional comments field which does not need to be filled out.
 
 All tour date ticket links work and open in a new page in your default browser. This was accomplished in html by using target="_blank" for the link.
 
