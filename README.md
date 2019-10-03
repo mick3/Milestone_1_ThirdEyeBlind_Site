@@ -85,7 +85,7 @@ Used this demo to display more than one item in the carousel at a time on large 
 https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde
 
 ## Testing
-Deleted "background-attachment: fixed" in my css for both background images. They were showing up on my iphone as 'zoomed in' and pixelated. So I deleted that, and reloaded the page on my iphone 6 and it rendered correctly.
+Deleted "background-attachment: fixed" in my css for both background images. They were showing up on my iphone as 'zoomed in' and pixelated. So I deleted that, and reloaded the page on my iphone 6 and it rendered correctly without the effect upon scrolling it had before.
 
 As I worked through the project, I primarily tested the site on mobile by using my own iPhone 6s (Safari 13). This helped me immensely and helped to cover some of the smallest screen sizes needed to be covered in my project. 
 
@@ -101,3 +101,5 @@ I received help from Anthony O'Brien, a channel lead for "User Centric Front-End
 
 ### Acknowledgements
 I received inspiration for a more "modern" look and "minimal" look by looking at the highest graded Milestone project submitted by Haley Schafer.
+
+**This is for educational use.** 
