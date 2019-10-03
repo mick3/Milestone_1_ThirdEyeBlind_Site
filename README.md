@@ -111,6 +111,6 @@ Since I created a single-page app, the default navbar wasn't enough. The default
 I received help from Anthony O'Brien, a channel lead for "User Centric Front-End": he let me use some javascript for the main dropdown menu to collapse after clicking on one of the menu elements, since the entire project is a singe-page HTML project. The default dropdown menu wasn't sufficient for use with a single-page element because it only disappears because we are navigating to a different page and it is reloading an entire page (when using a multi-page project). I have a single-page web app, so after you click the dropdown, it navigates to a different page section, and also collapses with the javascript implementation.
 
 ### Acknowledgements
-I received inspiration for a more "modern" look and "minimal" look by looking at the highest graded Milestone project submitted by Haley Schafer.
+I received inspiration for a more "modern" look and "minimal" look by looking at the highest graded Milestone project submitted by Haley Schafer. I also liked the presentation of her README.md file and asked her where she found a site to demo the responsiveness of my website by using http://ami.responsivedesign.is/ and then a gif generator to capture the screen demo and post it in this README.md file.
 
 **This is for educational use.** 
