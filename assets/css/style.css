@@ -171,17 +171,13 @@
     color: #87ceeb;
     border-color: #87ceeb;
 }
-
-.carousel .carousel-indicators li {
-    background-color: #fff;
-  }
   
   .carousel .carousel-indicators .active {
     background-color: #87ceeb;
   }
 
   .carousel .carousel-indicators li {
-    background-color: #fff;
+    background-color: #fff !important;
 }
 
   
