@@ -54,7 +54,7 @@ I added the link to the live Github pages link to the Github repository so you c
 
 Otherwise, to find the Github Pages live page, go to Settings and scroll down to where the link to the page is, and click on it. This will take you to the live page. 
 
-You can download and edit the file locally by going to the repository found at https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site and clicking 'clone or download' (a green button on the page) and then pasting the link into your code editor with 'git clone' before it. So it would look like (without quotes) 'git clone https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site.git .
+You can download and edit the file locally by going to the repository found at https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site and clicking 'clone or download' (a green button on the page) and then pasting the link into your code editor with 'git clone' before it. So it would look like (without quotes) 'git clone https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site.git'.
 
 ## Media
 image used for jumbotron landing-page background found at: https://substreammagazine.com/2019/07/third-eye-blind-summer-gods-tour-photo/. It is named "Third_Eye_Blind_glory.jpg" and downsized as "3eb_glory_shrunk.jpg".
