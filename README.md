@@ -75,6 +75,8 @@ All images in Image Gallery were downsized at http://www.onlineimageresize.com/.
 
 9."3eblogo.png" used in the navbar was taken from the Third Eye Blind Facebook group site.
 
+10."favicon.io" was originally an image of the bands upcoming album "Screamer". It was taken from a photo gallery on https://www.thirdeyeblind.com/ and turned into a small favicon image used in the tab of the browser. It was processed using https://www.favicongenerator.com/.
+
 Used https://wpshout.com/quick-guides/create-text-outline-css/ to create a black outline border on the navbar title "Third Eye Blind" and the navbar dropdown, to create separation from the background upon landing and scrolling the page for viewability with the light blue color used.
 
 I utilized a third party library for the image gallery on the page. This is called "Fancybox" and can be seen from visiting: http://fancyapps.com/fancybox/3/docs/#introduction .
