@@ -2,6 +2,9 @@
 ### By: Mike Webber
 User Centric Frontend Development Milestone Project
 
+## Demo
+A live demo of the finished project can be found [here](https://mick3.github.io/Milestone_1_ThirdEyeBlind_Site/).
+
 ## UX
 When first navigating to the site, I actually found a really great photo to bless the 'landing page'. The image shows us warm lighting and a touch of cool blue hues, which is a sort of narrative on the bands song content. Warm and cold lyrics, and engaging guitar riffs. The lights on the stage finding the lead singer in the middle of romance, disappointment, and hope. I believe this initial contact with the page creates a great first impression. This is visually appealling content. The only written information on the landing page is on the Navbar, which is the small square logo of the band, followed by the band name itself. The font used is Open Sans, which is said by to be "a humanist sans-serif typeface. It features wide apertures on many letters. It is said to be highly legible on screen and at small sizes. As of July 2018 it is the second most served font on Google Fonts."-Wikipedia (https://en.wikipedia.org/wiki/Open_Sans). The space on the page of the project isn't crowded and gives us only the elements that are important to a clean delivery of content. The hover effect on the the buttons is subtle.
 
@@ -9,10 +12,10 @@ When first navigating to the site, I actually found a really great photo to bles
 The landing page is clean and straightforward in content delivery. Giving us a picture of the lead singer, a navbar with the title of the band name and a dropdown menu with navigable links to the rest of the single-page app. All of the pages interactions are mapped by links in the navbar. The footer gives us external links to explore more of what the band has to offer, if a user wishes to venture.
 
 ## Wireframes
-The initial wireframes were loosely conceptualized with room for improvement once the project was underway. These were done in Balsamiq 3 and are available to view in the repo as well as some notebook photos taken during the design of the project when I was working with my mentor (denoted as the jpg images in the repository).
+The initial wireframes were loosely conceptualized with room for improvement once the project was underway. These were done in Balsamiq 3 and are available to view in the repo as well (file titled 'Wireframe.bmpr') as some notebook photos taken during the design of the project when I was working with my mentor (denoted as the jpg images in the repository, IMG_1220.jpg, IMG_1221.jpg, and IMG_1222.jpg).
 
 ## User Stories:
-1. As a longtime fan of Third Eye Blind, I can navigate to this site and listen to their entire playlist on spotify, watch some of their music videos (downsized presentation for brevity - they have a lot of videos).
+1. As a longtime fan of Third Eye Blind, I can navigate to this site and listen to their entire playlist on spotify or watch some of their music videos (downsized presentation for brevity - they have a lot of videos).
 2. As a new fan of Third Eye Blind, I can go to this site to find all their music and listen to it.
 3. As a concert goer who wants to see Third Eye Blind live, I can come to this site to view upcoming tour date times and locations, as well as purchase tickets from external sites.
 4. As someone who wants to host the band at an event, I can fill out the form at the bottom of the page and someone will contact me about that event in the future.
@@ -51,6 +54,8 @@ I added the link to the live Github pages link to the Github repository so you c
 
 Otherwise, to find the Github Pages live page, go to Settings and scroll down to where the link to the page is, and click on it. This will take you to the live page. 
 
+You can download and edit the file locally by going to the repository found at https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site and clicking 'clone or download' (a green button on the page) and then pasting the link into your code editor with 'git clone' before it. So it would look like (without quotes) 'git clone https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site.git .
+
 ## Media
 image used for jumbotron landing-page background found at: https://substreammagazine.com/2019/07/third-eye-blind-summer-gods-tour-photo/. It is named "Third_Eye_Blind_glory.jpg" and downsized as "3eb_glory_shrunk.jpg".
 took an image from https://www.paradiso.nl/nl/programma/third-eye-blind/62618/ to use on the "booking-area" section of the page. Named it "Stephan_Jenkins.jpg"
@@ -87,9 +92,15 @@ https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde
 ## Testing
 Deleted "background-attachment: fixed" in my css for both background images. They were showing up on my iphone as 'zoomed in' and pixelated. So I deleted that, and reloaded the page on my iphone 6 and it rendered correctly without the effect upon scrolling it had before.
 
-As I worked through the project, I primarily tested the site on mobile by using my own iPhone 6s (Safari 13). This helped me immensely and helped to cover some of the smallest screen sizes needed to be covered in my project. 
+As I worked through the project, I primarily tested the site on mobile by using my own iPhone 6s (Safari 13). This helped me immensely and helped to cover some of the smallest screen sizes needed to be accounted for in my project. 
 
 Browsers I tested the site on include: Chrome Version 76.0.3809.100 (Official Build) (64-bit), Firefox Quantum 69.0.1 (64-bit), Safari Version 13.0.1 (14608.2.11.1.11) and Opera Version:63.0.3368.94. I was unable to test on Microsoft versions of browsers (Edge, IE) because I don't own any Microsoft products. But in hind sight, I could have gone to Best Buy to test on their sample models.
+
+Using the 'booking form', in order to submit it, you need to fill out each of the fields. If you miss a field, there is a warning asking you to fill out said field in the form.
+
+All tour date ticket links work and open in a new page in your default browser. This was accomplished in html by using target="_blank" for the link.
+
+The CSS was run through the AutoPrefixer Online at https://autoprefixer.github.io/ to add functionality across web browsers where needed.
 
 ## Bugs/Fixes:
 
