@@ -129,6 +129,10 @@
     margin: 0 auto;
 }
 
+.fancybox {
+    margin: 0 auto;
+}
+
 #booking-form {
     background-image: url('../images/background/Stephan_Jenkins_shrunk.jpg');
     background-position: bottom;
