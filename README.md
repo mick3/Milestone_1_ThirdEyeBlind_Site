@@ -5,6 +5,8 @@ User Centric Frontend Development Milestone Project
 ## Demo
 A live demo of the finished project can be found [here](https://mick3.github.io/Milestone_1_ThirdEyeBlind_Site/).
 
+![Desktop Demo](https://raw.githubusercontent.com/mick3/Milestone_1_ThirdEyeBlind_Site/master/assets/images/screen_demo.gif) "Desktop Demo")
+
 ## UX
 When first navigating to the site, I actually found a really great photo to bless the 'landing page'. The image shows us warm lighting and a touch of cool blue hues, which is a sort of narrative on the bands song content. Warm and cold lyrics, and engaging guitar riffs. The lights on the stage finding the lead singer in the middle of romance, disappointment, and hope. I believe this initial contact with the page creates a great first impression. This is visually appealling content. The only written information on the landing page is on the Navbar, which is the small square logo of the band, followed by the band name itself. The font used is Open Sans, which is said by to be "a humanist sans-serif typeface. It features wide apertures on many letters. It is said to be highly legible on screen and at small sizes. As of July 2018 it is the second most served font on Google Fonts."-Wikipedia (https://en.wikipedia.org/wiki/Open_Sans). The space on the page of the project isn't crowded and gives us only the elements that are important to a clean delivery of content. The hover effect on the the buttons is subtle.
 
