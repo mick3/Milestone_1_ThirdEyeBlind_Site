@@ -48,11 +48,7 @@ I would also like to implement a 'stop-scrolling-while-video-plays' function for
   #### Font Awesome https://fontawesome.com/
   
   ## Deployment
-  I deployed the website to Github pages by, first creating a repository for where my code exists. I clicked the "new" button in my main github login page. It then takes you to the page where you name your repository. You can make your repository public or private. I made mine public. I initialized the repository with a README.md file. I then created files in my code editor VSCode and pushed the files to the repository via terminal and git commands. I made sure to create the 'index.html' file so that github and github pages would publish that as the main page versus not having the index.html file and github defaulting to host the readme.md file as the main file. 
-  
-I added the link to the live Github pages link to the Github repository so you can navigate it without having to go to settings in github.
-
-Otherwise, to find the Github Pages live page, go to Settings and scroll down to where the link to the page is, and click on it. This will take you to the live page. 
+  Instructions on how I deployed my project to github pages (a free hosting feature of github to launch projects) can be found [here](https://pages.github.com/).
 
 You can download and edit the file locally by going to the repository found at https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site and clicking 'clone or download' (a green button on the page) and then pasting the link into your code editor with 'git clone' before it. So it would look like (without quotes) 'git clone https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site.git'.
 
