@@ -280,4 +280,7 @@
         color: #000;
         padding-bottom: 25px;
     }
+    .page-footer ul li {
+        padding: 5px;
+    }
 }
