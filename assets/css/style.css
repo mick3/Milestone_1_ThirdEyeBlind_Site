@@ -206,7 +206,6 @@
         -ms-flex-pack: center;
             justify-content: center;
     background: #000;
-    margin: 0 auto;
   }
   
   .page-footer ul{
@@ -236,32 +235,32 @@
 /*-- Social Media Icon styling (footer) --*/
 .fa-apple {
     color: #87ceeb;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .fa-instagram{
     color: #87ceeb;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .fa-twitter {
     color: #87ceeb;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .fa-soundcloud{
     color: #87ceeb;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .fa-youtube {
     color: #87ceeb;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 /*-- Breakpoint Styling (0-575px screen-width) --*/
@@ -279,8 +278,5 @@
         background-color: #fff;
         color: #000;
         padding-bottom: 25px;
-    }
-    .page-footer ul li {
-        padding: 5px;
     }
 }
