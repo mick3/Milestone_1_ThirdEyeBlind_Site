@@ -55,7 +55,7 @@ I would also like to implement a 'stop-scrolling-while-video-plays' function for
 You can download and edit the file locally by going to the repository found at https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site and clicking 'clone or download' (a green button on the page) and then pasting the link into your code editor with 'git clone' before it. So it would look like (without quotes) 'git clone https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site.git'.
 
 ## Media
-image used for jumbotron landing-page background found at: https://substreammagazine.com/2019/07/third-eye-blind-summer-gods-tour-photo/. It is named "Third_Eye_Blind_glory.jpg" and downsized as "3eb_glory_shrunk.jpg".
+image used for jumbotron landing-page background found at: https://substreammagazine.com/2019/07/third-eye-blind-summer-gods-tour-photo/. It is named "Third_Eye_Blind_glory.jpg" and downsized as "3eb_downsized.jpg".
 took an image from https://www.paradiso.nl/nl/programma/third-eye-blind/62618/ to use on the "booking-area" section of the page. Named it "Stephan_Jenkins.jpg"
 
 All images in Image Gallery were downsized at http://www.onlineimageresize.com/. Images used for the Image gallery were resized to be small for thumbnail viewing with the fancybox app, and all file names of the resize are named "onlineimageresize_com_" followed by the original file name. For example, the thumbnail for "acoustic.jpg" is named "onlineimageresize_com_acoustic.jpg" after running it through the downsize web app aforementioned.
