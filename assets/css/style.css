@@ -235,22 +235,32 @@
 /*-- Social Media Icon styling (footer) --*/
 .fa-apple {
     color: #87ceeb;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .fa-instagram{
     color: #87ceeb;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .fa-twitter {
     color: #87ceeb;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .fa-soundcloud{
     color: #87ceeb;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .fa-youtube {
     color: #87ceeb;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 /*-- Breakpoint Styling (0-575px screen-width) --*/
