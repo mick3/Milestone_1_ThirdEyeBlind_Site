@@ -48,7 +48,7 @@ I would also like to implement a 'stop-scrolling-while-video-plays' function for
   #### Font Awesome https://fontawesome.com/
   
   ## Deployment
-  Instructions on how I deployed my project to github pages (a free hosting feature of github to launch projects) can be found [here](https://pages.github.com/).
+  Instructions on how I deployed my project to github pages (a free hosting feature of github to launch projects) can be found [here](https://pages.github.com/) and [here](https://www.codecademy.com/articles/f1-u3-github-pages).
 
 You can download and edit the file locally by going to the repository found at https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site and clicking 'clone or download' (a green button on the page) and then pasting the link into your code editor with 'git clone' before it. So it would look like (without quotes) 'git clone https://github.com/mick3/Milestone_1_ThirdEyeBlind_Site.git'.
 
