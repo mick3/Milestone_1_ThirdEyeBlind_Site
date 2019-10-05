@@ -98,6 +98,21 @@ All tour date ticket links work and open in a new page in your default browser. 
 
 The CSS was run through the AutoPrefixer Online at https://autoprefixer.github.io/ to add functionality across web browsers where needed.
 
+#### Personal feedback from Mobile users:
+  I posted my page to Facebook and got feedback on various mobile devices (9) and potential problems. 
+  1. Alex Kowalkowski's first comment was to ask if I work for the band. His feedback was to tell me to focus on Wordpress and he didn't complain about anything about the site but said he used an iPhone 10.
+  2. Meghan Mcpherson said "Looks great! I didn't have any issues with the site and I'm  on an iPhone (X Max)."
+  3. John Montross said "I found it easy to use and browse and I use Android (Samsung J3)".
+  4. Marie Goheen replied to John's comment and said "same on iPhone 7".
+  5. Courtney Leach said she used a Galaxy S7, and said "Looks good, but when I scrolled to the bottom there was an icon over the submit button". And "this is personal preference but I didn't like having all the pages to scroll through when I went to the page. I prefer a homepage and then going to each page for that info." I replied to her and made her aware that the point of the single-page app is to be concise and that the dropdown menu is used to navigate to each section.
+  6. Heather Saunders said "I'm on the Moto One Zoom and when I scrolled back up to the top from the bottom there is a large blank area above the tour dates". This is actually a bug I've been dealing with in the project. Sometimes the Hero image on the landing page has to reload. I'm not sure if it's because a bigger file or what.
+  7. Megan VanHoose said "I'm on an iPhone XR and it looks great. Scrolls well, easy to navigate."
+  8. Jacoby Routley said "Galaxy Note 10 worked good for me".
+  9. Cassandra Salsa said "Moto 4, Android. Mostly works good, the tickets stuff didn't quite fit the page for me." (I made this section have an "x-scroll" feature because it's a little wide on mobile devices and also told her that in feedback).
+  
+  I also used Chrome Devtools throughout the project and utilized all the simulations of devices to ensure it was mobile, tablet, and desktop friendly (covering most screen sizes). Simulated devices include Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5 / SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone X, iPad, and iPad Pro.
+  
+
 ## Bugs/Fixes:
 
 Collapsible navbar dropdown code found here:
