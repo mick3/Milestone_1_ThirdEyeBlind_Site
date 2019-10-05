@@ -23,7 +23,7 @@
 }
 
 .h5 {
-    font-family: Open Sans, Source Sans Pro;
+    font-family: 'Open Sans', 'Source Sans Pro';
 }
 
 .title {
@@ -131,6 +131,8 @@
 
 .fancybox {
     margin: 0 auto;
+    display: flex;
+    text-align: center;
 }
 
 #booking-form {
